@@ -1,4 +1,4 @@
-package chess;
+package exceptions;
 
 public class StatusException extends Exception{
 
@@ -14,5 +14,4 @@ public class StatusException extends Exception{
     public StatusException(String message, Throwable t){
         super(message, t);
     }
-
-    }
+}

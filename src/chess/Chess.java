@@ -1,5 +1,8 @@
 package chess;
 
+import exceptions.GameException;
+import exceptions.StatusException;
+
 public interface Chess {
     /**
      * Pick a color to play

@@ -1,5 +1,7 @@
 package chess;
 
+import exceptions.GameException;
+import exceptions.StatusException;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -19,6 +21,7 @@ public class UsageTests {
 
         Assert.assertEquals(ChessColor.black, melisaColor);
     }
+
     @Test
     public void goodPickColor2() throws GameException, StatusException {
         Chess chess = this.getChess();

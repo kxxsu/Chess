@@ -9,10 +9,10 @@ public class ChessBoardPosition {
         this.yCoordinate = yCoordinate;
     }
 
-    String getXCoordinate(){
+    public String getXCoordinate(){
         return this.xCoordinate;
     }
-    int getYCoordinate(){
+    public int getYCoordinate(){
         return this.yCoordinate;
     }
 }

@@ -1,5 +1,8 @@
 package chess;
 
+import exceptions.GameException;
+import exceptions.StatusException;
+
 import java.util.HashMap;
 
 public class ChessImpl implements Chess {
