@@ -1,4 +1,4 @@
-package chess;
+package board;
 
 public class ChessBoardPosition {
     private final String xCoordinate;

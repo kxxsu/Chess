@@ -1,7 +1,7 @@
 package protocolEngine;
 
 import chess.Chess;
-import chess.ChessBoardPosition;
+import board.ChessBoardPosition;
 import chess.ChessColor;
 import exceptions.GameException;
 import exceptions.StatusException;

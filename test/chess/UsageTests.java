@@ -1,5 +1,6 @@
 package chess;
 
+import board.ChessBoardPosition;
 import exceptions.GameException;
 import exceptions.StatusException;
 import org.junit.Assert;
