@@ -16,10 +16,11 @@ public class ProtocolTests {
     public static final String MELISA = "Melisa";
     Chess chess = this.getChess();
 
-    private Chess getChessEngine(InputStream is, OutputStream os, Chess gameEngine){
+    private Chess getChessEngine(InputStream is, OutputStream os, Chess gameEngine) {
         return new ChessProtocolEngine(is, os, gameEngine);
     }
-    private Chess getChess(){
+
+    private Chess getChess() {
         return new ChessImpl();
     }
 
@@ -71,7 +72,7 @@ public class ProtocolTests {
 
     }
 
-    private class ChessReadTester implements Chess{
+    private class ChessReadTester implements Chess {
 
         private boolean lastCallPick = false;
         private boolean lastCallSet = false;
